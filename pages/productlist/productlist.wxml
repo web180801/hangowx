@@ -1,0 +1,24 @@
+<!--pages/productlist/productlist.wxml-->
+
+  <view class="slider">
+      <swiper autoplay>
+        <swiper-item wx:for="{{list}}" wx:key="index">
+          <image src="{{item.img_url}}" lazy-load mode='aspectFill'></image>
+        </swiper-item>
+      </swiper>
+  </view>
+  <view class="shop">
+  <view class="detail">
+    <text>农谷鲜 新鲜散养农家土鸡蛋30枚包邮破蛋包赔（活动）</text>
+    <view>
+      <text class="now">￥32.9</text>
+      <text class="old">￥36.9</text>
+    </view>
+  </view>
+  <view class="shop-count">
+    <view>⭐</view>
+    <view>收藏</view>
+    <view>销量：4217</view>
+  </view>
+</view>
+<view class="divider"></view>

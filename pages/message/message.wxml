@@ -1,0 +1,16 @@
+<!--pages/message/message.wxml-->
+<!-- 消息列表 -->
+<view class="title">
+  <text>今日热卖</text>
+</view>
+  <!--<view wx:for="{{list}}" wx:key="index">
+    <image src="{{item.img_url}}" lazy-load mode='aspectFill'></image>
+    <view><text>￥{{item.price}}</text></view>
+  </view>-->
+  <view class="index-message">
+      <view class="message-item" wx:for="{{list}}" wx:key="index">
+        <image src="{{item.img_url}}" lazy-load mode='aspectFill'></image>
+        <text>{{item.detail}}</text>
+        <view><text class="price">￥{{item.price}}</text></view>
+      </view>
+    </view> 

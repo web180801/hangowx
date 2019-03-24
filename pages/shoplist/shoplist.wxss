@@ -1,0 +1,53 @@
+/* pages/shoplist/shoplist.wxss */
+/*组件白色背景*/
+page{
+  background-color:#fff;
+}
+/* 商品条目*/
+.shop{
+  padding:20rpx;
+  border-bottom:1px solid #ddd;
+  display:flex;
+  position:relative;
+}
+/*图片大小*/
+.shop-img{
+  width:160rpx;
+  height:160rpx;
+  margin-right:20rpx;
+}
+/*商品信息*/
+.shop-info{
+  width:520rpx;
+  font-size:12px;
+  color:#666;
+  display:flex;
+  flex-direction: column;
+  line-height:1.5;
+}
+/*店铺名称*/
+.shop-title{
+  font-size:16px;
+  color:#333;
+  width:380rpx;
+}
+/*打分--星星*/
+.shop-star{
+  position:absolute;/*打分区域绝对定位*/
+  right:20rpx;  /*右侧*/
+  top:20rpx;  /*顶端*/
+}
+.start-after{
+  color:#e2e2e2;
+}
+.start-before{
+  color:#f19e38;
+  position:absolute;
+  top:0;
+  left:0;
+  width:75%;
+  overflow:hidden;
+}
+/*通用功能：截取字符串... 添加app.wxss*/
+/*app.wxss 全局样式文件*/
+/*单行超出指定范围截取内容并添加...*/

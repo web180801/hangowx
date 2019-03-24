@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shoplist/shoplist",
+    "pages/addmessage/addmessage",
+    "pages/message/message",
+    "pages/profile/profile",
+    "pages/product/product",
+    "pages/logs/logs",
+    "pages/list/list",
+    "pages/productlist/productlist"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0ff",
+    "navigationBarTitleText": "汉购网",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/static/home.png",
+        "selectedIconPath": "pages/static/home-active.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "分类",
+        "iconPath": "pages/static/message.png",
+        "selectedIconPath": "pages/static/message-active.png"
+      },
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "个人中心",
+        "iconPath": "pages/static/profile.png",
+        "selectedIconPath": "pages/static/profile-active.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "登录",
+        "iconPath": "pages/static/contact.png",
+        "selectedIconPath": "pages/static/contact-active.png"
+      }
+    ]
+  }
+}
